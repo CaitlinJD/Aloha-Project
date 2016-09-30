@@ -36,6 +36,10 @@
     font-family: "Playfair Display", serif;
 }
 
+.font-weight-med {
+    font-weight: medium; 
+}
+
 .font-center {
     text-align: center;
 }
@@ -48,12 +52,37 @@
     font-style: italic;
 }
 
+.line-height {
+    line-height: 2em;
+    padding: 1em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 .color-white {
     color: #fff;
 }
 
 .color-grey {
     color: #969696;
+}
+
+.color-orange {
+    color: #e2574c; 
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px #000;
+}
+
+.margin-bottom-med {
+    margin-bottom: 3em;
+}
+
+.margin-top-med {
+    margin-top: 3em;
 }
 
 .float-left {
@@ -73,25 +102,20 @@
     width: auto;
 }
 
-.font-weight-med {
-    font-weight: medium; 
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
 .reduced-width {
     max-width: 1000px;
     width: 100%;
     margin: auto;
 }
 
-hr {
-    border: 1px solid #d7d7d7;  
+.max-width {
+    max-width: 600px;
+    margin: auto;   
 }
 
+
 /* SPECIFIC STYLES */
+
 
 body {
     font-size: 16px;
@@ -111,7 +135,7 @@ nav {
     padding: 1.2em 1.5em;
 }
 
-.image {
+.logo-image {
     max-width: 100%;
 }
 
@@ -139,49 +163,49 @@ nav {
     padding-top: 9em;
 }
 
-/* HAND CRAFTED SECTION */
-
 h1 {
     padding: 0.2em;
     font-size: 4em;
 }
+
+
+/* HAND CRAFTED SECTION */
 
 h2 {
     font-size: 2em;
     padding: 2em 0 1em;
 }
 
-.line-height {
-    line-height: 2em;
-    padding: 1em;
+.hr {
+    border: 1px solid #d7d7d7;  
 }
 
-.max-width {
-    max-width: 600px;
-    margin: auto;   
-}
-
-.margin-bottom-med {
-    margin-bottom: 3em;
-}
+/* PRODUCTS SECTION */
 
 .product {
     width: 25%
 }
 
-.item {
+.product-img {
     width: 100%;
 }
 
-.category {
+.small-caps {
     font-variant: small-caps;   
 }
+
+h3.font-size {
+    font-size: 1.3em;
+    padding: 0.6em;
+   
+}
+
+/* UPDATES SECTION */
 
 .updates {
     height: 350px;
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../assets/images/wave-bkgd.jpg) bottom no-repeat;
 }
-
 
 .subscribe {
     max-width: 425px;
@@ -194,53 +218,48 @@ h2 {
 
 .email {
     width: 50%;
-  
     padding: 0.5em 2%;    
     border-radius: 20px;
     border: none;
     font-size: 16px;
 }
 
-.button {
+.submit-button {
     width: 30%;
     font-size: 16px;
     padding: 0.5em 1em;
     border-radius: 30px;
     border: none;
-    
     color: #fff;
     background-color: #e2574c;
 }
 
+/* FOOTER */
 footer {
     height: 260px;
     text-align: left;
     background-color: #242424;
-    position: relative;
+    border-top: 5px solid #fff;
 }
 
-.center-vertically { 
+.footer-margins { 
     margin: 2em 3em 0 1em;
 }
 
-.line-spacing {
+.paragraph-spacing {
     line-height: 1.5em;
     margin: 1em;
 }
 
-.location {
-    color: #969696;
-}
-
-a.email { /* fix hover color */
+a.email:link { /* fix hover color */
     color: #ffffff;
 }
 
-.description {
-    font-size: 1.3em;
-    padding: 0.6em;
-    color: #e2574c;
+a.email:hover {
+    color: #b64036;
 }
+
+
 
 i {
     padding: 6px;
