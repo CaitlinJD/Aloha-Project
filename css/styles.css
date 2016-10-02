@@ -74,15 +74,15 @@
 }
 
 .text-shadow {
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: 1px 1px 4px #555;
 }
 
 .margin-bottom-med {
     margin-bottom: 3em;
 }
 
-.margin-top-med {
-    margin-top: 3em;
+.margin-top-lg {
+    margin-top: 4.5em;
 }
 
 .float-left {
@@ -113,13 +113,10 @@
     margin: auto;   
 }
 
-
 /* SPECIFIC STYLES */
-
 
 body {
     font-size: 16px;
-    font-family: "Raleway Light";
     color: #2d2d2d;
 }
 
@@ -143,8 +140,8 @@ nav {
     max-width: 100%;
 }
 
-
 /* BANNER */
+
 .banner-img1 {
     height: 550px;
     color: #fff;
@@ -168,7 +165,6 @@ h1 {
     font-size: 4em;
 }
 
-
 /* HAND CRAFTED SECTION */
 
 h2 {
@@ -176,7 +172,7 @@ h2 {
     padding: 2em 0 1em;
 }
 
-.hr {
+hr {
     border: 1px solid #d7d7d7;  
 }
 
@@ -196,8 +192,7 @@ h2 {
 
 h3.font-size {
     font-size: 1.3em;
-    padding: 0.6em;
-   
+    padding: 0.6em;   
 }
 
 /* UPDATES SECTION */
@@ -209,7 +204,7 @@ h3.font-size {
 
 .subscribe {
     max-width: 425px;
-    width: 65%;
+    width: 100%;
     margin: auto;
     padding: 4px;
     background-color: #fff;
@@ -235,6 +230,7 @@ h3.font-size {
 }
 
 /* FOOTER */
+
 footer {
     height: 260px;
     text-align: left;
@@ -251,15 +247,13 @@ footer {
     margin: 1em;
 }
 
-a.email:link { /* fix hover color */
+a.email:link { 
     color: #ffffff;
 }
 
 a.email:hover {
     color: #b64036;
 }
-
-
 
 i {
     padding: 6px;
@@ -281,7 +275,7 @@ i {
     nav {
         width: 11%;
     }
-
+    
     .banner-img1 {
         height: 350px;
     }
@@ -298,6 +292,14 @@ i {
     
     .product {
         width: 100%;
+    }
+    
+    .product-img {
+        width: auto;
+    }
+    
+    .subscribe {
+        max-width: 90%;
     }
     
     .hide-for-mobile {
@@ -342,5 +344,9 @@ i {
     
     .product {
         width: 50%;
+    }
+    
+    .product-img {
+        width: auto;
     }
 }
