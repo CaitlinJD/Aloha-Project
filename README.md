@@ -5,7 +5,7 @@ This project is the creation of the homepage for the Aloha Apparel Co. website. 
 ### Built With
   - Brackets
  
-### Techniques Used
+### Coding Languages Used
 - HTML5
 - CSS3
  
