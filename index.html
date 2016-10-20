@@ -5,7 +5,17 @@
         <meta charset="UTF-8">
         <meta name="keywords" content="Aloha,Spring/Summer 2016,New Collection">
         <meta name="viewport" content="width=device-width">
-        
+        <script>
+var cb = function() {
+var l = document.createElement('link'); l.rel = 'stylesheet';
+l.href = "build/css/style.min.css" rel="stylesheet" type="text/css";
+var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(cb);
+else window.addEventListener('load', cb);
+</script>
      
     </head>
     <body>
@@ -182,7 +192,6 @@
 
         <!-- <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet"> -->
         
-            <link href="build/css/style.min.css" rel="stylesheet" type="text/css"> 
         
         <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
         
