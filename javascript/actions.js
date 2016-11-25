@@ -56,7 +56,9 @@ $(document).ready(function(){
 // Product carousel
 $('.main-carousel').flickity({
     contain: true,
-    groupCells: true
+    groupCells: true,
+    imagesLoaded: true,
+    autoPlay: true,
 });
    
 })
