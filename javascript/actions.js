@@ -56,7 +56,15 @@ $(document).ready(function(){
 // Product carousel
 $('.main-carousel').flickity({
     contain: true,
-    groupCells: true
+    groupCells: true,
+    imagesLoaded: true,
+    autoPlay: true,
 });
+
+    WebFont.load({
+        google: {
+            families: ['Playfair+Display Pro:400,700,400italic,700italic', 'Raleway:300,500']
+        }
+    });
    
-})
+});
