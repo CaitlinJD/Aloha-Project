@@ -3,14 +3,23 @@ a:link {
   text-decoration: none;
 }
 
+a.visited {
+  color: #e2574c;
+}
+
 a:link.color-white {
   color: #fff;
   text-decoration: underline;
 }
 
+a:visited.color-white {
+  color: #fff;
+}
+
 a:hover {
   color: #b64036;
 }
+
 
 a:hover.color-white {
   color: #b64036;
