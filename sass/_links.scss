@@ -1,0 +1,28 @@
+a:link {
+  color: #e2574c;
+  text-decoration: none;
+}
+
+a:link.color-white {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #b64036;
+}
+
+a:hover.color-white {
+  color: #b64036;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -125px;
+  visibility: hidden;
+}
+
+#updates.anchor {
+  top: -20px;
+}
