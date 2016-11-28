@@ -1,0 +1,95 @@
+.font-ralewaylight {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-playfairdisplay {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-weight-med {
+  font-weight: medium;
+}
+
+.med-font {
+  font-size: 1.3em;
+}
+
+.lrg-font {
+  font-size: 1.6em;
+  padding: 0.6em;
+
+  @media only screen and (min-width: 1240px) {
+    font-size: 2em;
+    padding: 0.6em;
+  }
+
+}
+
+.xlrg-font {
+  font-size: 3em;
+  padding: 0.2em;
+
+  @media only screen and (min-width: 600px) {
+    font-size: 4em;
+    padding: 0.2em;
+  }
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+.text-shadow {
+  text-shadow: 1px 1px 4px #555;
+}
+
+.font-center {
+  text-align: center;
+}
+
+.line-height-med {
+  line-height: 2em;
+  padding: 1em;
+}
+
+.line-height-sm {
+  line-height: 1.5em;
+  margin: 1em;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 4px #555;
+}
+
+.font-center {
+  text-align: center;
+}
+
+.line-height-med {
+  line-height: 2em;
+  padding: 1em;
+}
+
+.line-height-sm {
+  line-height: 1.5em;
+  margin: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .font-left {
+    text-align: left;
+  }
+}

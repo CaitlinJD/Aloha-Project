@@ -1,0 +1,202 @@
+body {
+  font-size: 14px;
+  color: #2d2d2d;
+}
+
+/* HEADER */
+
+.position-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+}
+
+.logo {
+  flex-basis: 25%;
+
+  @media only screen and (min-width: 600px) {
+    flex-basis: 18%;
+  }
+  @media only screen and (min-width: 1240px) {
+    flex-basis: 14%;
+  }
+}
+
+.logo-image {
+  max-width: 100%;
+}
+
+.shopping-cart {
+  flex-basis: 11%;
+  position: relative;
+  @media only screen and (min-width: 600px) {
+    flex-basis: 7.5%;
+  }
+  @media only screen and (min-width: 1240px) {
+    flex-basis: 6%;
+  }
+}
+
+.cart-icon {
+  max-width: 100%;
+}
+
+hr {
+  border: 1px solid #d7d7d7;
+}
+
+.hide {
+  display: block;
+  @media only screen and (min-width: 600px) {
+    display: none;
+  }
+}
+
+#item-counter {
+  display: none;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background-color: #e2574c;
+  color: #fff;
+  padding: 0.2em;
+}
+
+#price-box {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  background-color:rgba(0,0,0,0.8);
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: none;
+}
+
+/* BANNER */
+
+.banner-img1 {
+  height: 350px;
+  background: url(../../assets/images/flower-bkgd.jpg) center/cover no-repeat;
+  @media only screen and (min-width: 600px) {
+    height: 450px;
+  }
+  @media only screen and (min-width: 1240px) {
+    height: 550px;
+  }
+}
+
+.banner-img2 {
+  height: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../../assets/images/banner-girl.png) center top/contain no-repeat;
+}
+
+/* HAND CRAFTED SECTION */
+
+.max-width {
+  max-width: 600px;
+}
+
+/* PRODUCT CATEGORIES */
+
+.bkg-img-mens {
+  background: url(../../assets/images/mens-category.jpg) center/cover no-repeat;
+}
+
+.bkg-img-trends {
+  background: url(../../assets/images/trends-category.jpg) center/cover no-repeat;
+}
+
+.bkg-img-glasses {
+  background: url(../../assets/images/glasses-category.jpg) center/cover no-repeat;
+}
+
+.bkg-img-sale {
+  background: url(../../assets/images/sale-category.jpg) center/cover no-repeat;
+}
+
+.bkg-img-bags {
+  background: url(../../assets/images/bags-category.jpg) center/cover no-repeat;
+}
+
+.bkg-img-womens {
+  background: url(../../assets/images/womens-category.jpg) center/cover no-repeat;
+}
+
+.min-height {
+  min-height: 200px;
+  @media only screen and (min-width: 600px) {
+    min-height: 200px;
+  }
+  @media only screen and (min-width: 1240px) {
+    min-height: 280px;
+  }
+}
+
+.img-border {
+  border: 3px solid #fff;
+}
+
+
+
+
+/* UPDATES SECTION */
+
+.updates {
+  height: 350px;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../../assets/images/wave-bkgd.jpg) bottom no-repeat;
+}
+
+.subscribe {
+  max-width: 425px;
+  width: 100%;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+input[type="email"] {
+  width: 50%;
+  padding: 0.5em 2%;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}
+
+input[type="button"] {
+  width: 30%;
+  font-size: 16px;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  background-color: #e2574c;
+}
+
+/* FOOTER */
+
+footer {
+  height: 260px;
+  background-color: #242424;
+  border-top: 5px solid #fff;
+}
+
+.hide-for-mobile {
+  display: none;
+  @media only screen and (min-width: 600px) {
+    display: inline;
+  }
+
+}
+
+i {
+  padding: 6px;
+}

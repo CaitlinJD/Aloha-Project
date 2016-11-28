@@ -9,10 +9,10 @@ $(document).ready(function(){
         $("#item-counter").html(currentNumber);
          
         // Update total price and discount
-        var itemPrice = $(this).parent().data("price"); 
+        var itemPrice = $(this).parent().parent().data("price");
         itemPrice = Number(itemPrice);
-        var sale = $(this).parent().data("sale");
-        var discount = $(this).parent().data("discount");
+        var sale = $(this).parent().parent().data("sale");
+        var discount = $(this).parent().parent().data("discount");
         discount = Number(discount);
         var totalPrice = $("#total-price").text();
         totalPrice = Number(totalPrice);
@@ -52,19 +52,13 @@ $(document).ready(function(){
             alert("Please enter a valid email address");
         }
     })
- 
-// Product carousel
-$('.main-carousel').flickity({
-    contain: true,
-    groupCells: true,
-    imagesLoaded: true,
-    autoPlay: true,
-});
 
-    WebFont.load({
-        google: {
-            families: ['Playfair+Display Pro:400,700,400italic,700italic', 'Raleway:300,500']
-        }
+    // Product carousel
+    $('.main-carousel').flickity({
+        contain: true,
+        groupCells: true,
+        imagesLoaded: true,
+        autoPlay: true,
     });
    
 });
