@@ -162,16 +162,20 @@ http://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1; }
 
-a:link {
+li a {
   color: #e2574c;
   text-decoration: none; }
+  li a:visited {
+    color: #e2574c; }
+  li a:hover {
+    color: #b64036; }
 
 a:link.color-white {
   color: #fff;
   text-decoration: underline; }
 
-a:hover {
-  color: #b64036; }
+a:visited.color-white {
+  color: #fff; }
 
 a:hover.color-white {
   color: #b64036; }
