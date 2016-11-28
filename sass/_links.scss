@@ -1,10 +1,16 @@
-a:link {
-  color: #e2574c;
-  text-decoration: none;
-}
+li {
+  a {
+    color: #e2574c;
+    text-decoration: none;
 
-a.visited {
-  color: #e2574c;
+    &:visited {
+      color: #e2574c;
+    }
+
+    &:hover {
+      color: #b64036;
+    }
+  }
 }
 
 a:link.color-white {
@@ -15,11 +21,6 @@ a:link.color-white {
 a:visited.color-white {
   color: #fff;
 }
-
-a:hover {
-  color: #b64036;
-}
-
 
 a:hover.color-white {
   color: #b64036;
